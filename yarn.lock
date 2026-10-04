@@ -257,7 +257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
+"@eslint-community/eslint-utils@npm:4.9.1, @eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
   version: 4.9.1
   resolution: "@eslint-community/eslint-utils@npm:4.9.1"
   dependencies:
@@ -717,12 +717,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.2.10":
-  version: 16.2.10
-  resolution: "@next/eslint-plugin-next@npm:16.2.10"
+"@next/eslint-plugin-next@npm:16.3.8":
+  version: 16.3.8
+  resolution: "@next/eslint-plugin-next@npm:16.3.8"
   dependencies:
+    "@eslint-community/eslint-utils": "npm:4.9.1"
     fast-glob: "npm:3.3.1"
-  checksum: 10/0693044cb9d10fa2745a84845f919dced6468ad7e94bc3f14dc68af37004b04c925b284006f5a619c2788453c49ff4af9ff10b9e89af62a8ba7000300ca670e3
+  checksum: 10/85861004f311a9997f90094cc0160174232867c647c8ce10f9ac748c9af236a5c00417687f927aa98f5a6aecf6748bfab8185085b1c21ad560c1b04a1acede8a
   languageName: node
   linkType: hard
 
@@ -1570,7 +1571,7 @@ __metadata:
     "@types/react": "npm:^19.2.17"
     "@types/react-dom": "npm:^19.2.3"
     eslint: "npm:^10.8.1"
-    eslint-config-next: "npm:16.2.10"
+    eslint-config-next: "npm:16.3.8"
     next: "npm:16.3.3"
     papaparse: "npm:^5.5.4"
     react: "npm:^19.2.7"
@@ -1890,11 +1891,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:16.2.10":
-  version: 16.2.10
-  resolution: "eslint-config-next@npm:16.2.10"
+"eslint-config-next@npm:16.3.8":
+  version: 16.3.8
+  resolution: "eslint-config-next@npm:16.3.8"
   dependencies:
-    "@next/eslint-plugin-next": "npm:16.2.10"
+    "@next/eslint-plugin-next": "npm:16.3.8"
     eslint-import-resolver-node: "npm:^0.3.6"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.32.0"
@@ -1909,7 +1910,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/ebbd9a4976606c5c700b1a671789c8a6c0831906280cab3ab2f5b6c0b25bc5dd5316b2a2191e7e2b1db630dd01d24a2452aa6b74b3a63b62a2c50c9e70a6dad2
+  checksum: 10/ab1599df2a2cf79abb69893605cfcf15a589483d0c41814abe737eacb3361b5e4e237bb2a7dfd54f25b3b7006a1b97c7ee76a0642f4df5e11900c3d112a055c9
   languageName: node
   linkType: hard
 
